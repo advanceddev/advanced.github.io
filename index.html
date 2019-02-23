@@ -22,12 +22,9 @@
 		</div>
 		<div class="r pt1">
 			<div class="c5">
-				<input type="text" id="cssUrl"
-					value="https://advanceddev.github.io/advanced.github.io/advanced.css"
-					placeholder="https://advanceddev.github.io/advanced.github.io/advanced.css"
-					class="code"
-					style="margin-left:0; width: 100%"
-				/>
+				<p class="code" id="cssUrl" style="margin-left:0;">
+					https://advanceddev.github.io/advanced.github.io/advanced.css
+				</p>
 				<small id="result" class="hide">Done!</small>
 			</div>
 			<div class="c12">
@@ -38,17 +35,6 @@
 			</div>
 		</div>
 	</div>
-	<script>
-		document.getElementById("action_btn").onclick = function () {
-			location.href = "https://github.com/advanceddev";
-		};
-		function handleAction() {
-		  var copyText = document.getElementById("cssUrl");
-		  var element = document.getElementById("result");
-		  copyText.select();
-		  document.execCommand("copy");
-		  element.classList.remove("hide");
-		}
-	</script>
+	<script src="app.js"></script>
 </body>
 </html>
