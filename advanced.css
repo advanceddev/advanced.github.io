@@ -89,6 +89,7 @@ p { font-size: 1.125rem; font-weight: 200; line-height: 1.8; }
 .hide-sm { display: none; }
 button:focus { outline:0; }
 button:active { outline: none; border: none; }
+a.b1, a.b2, a.b3 { text-decoration: none; }
 .b1 { font-size:16px; color:#000; font-weight: 400; background-color:#fc0; border-bottom:2px solid #eb0; border-top:0; border-left: 0; border-right: 0; border-radius:4px; padding: 12px 22px 12px 22px; }
 .b1:hover { cursor:pointer; background-color: #fd5; border-bottom:2px solid #fc0; }
 .b2 { font-size:16px; color:#fff; font-weight: 400; background-color:#444; border-bottom:2px solid #333; border-top:0; border-left: 0; border-right: 0; border-radius:4px; padding: 12px 22px 12px 22px; }
