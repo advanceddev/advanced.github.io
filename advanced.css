@@ -87,6 +87,7 @@ p { font-size: 1.125rem; font-weight: 200; line-height: 1.8; }
 .c12-sm { width: 96%; }
 .r::after { content: ""; display: table; clear: both; }
 .hide-sm { display: none; }
+.hide { display: none; }
 button:focus { outline:0; }
 button:active { outline: none; border: none; }
 a.b1, a.b2, a.b3 { text-decoration: none; }
@@ -102,6 +103,8 @@ a.b1, a.b2, a.b3 { text-decoration: none; }
 .b-like:before { content: ''; padding-left: 24px; background: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAyNzkuODUxIDI3OS44NTEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI3OS44NTEgMjc5Ljg1MTsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxnPgoJPHBhdGggc3R5bGU9ImZpbGw6I0UyNTc0QzsiIGQ9Ik0yNTUuMzYxLDQxLjgzOWMtNDEuNDQ0LTQxLjQ1My04Mi41MzgtMjMuMzM5LTExNS40MzMsNi4yMyAgIEMxMDcuMDE2LDE4LjUsNjYuMjY0LDAuMDYyLDI0LjQ4Nyw0MS44MzljLTMyLjU3MSwzMi41NTMtMzIuNzI4LDg0Ljg2NiwwLDExNy4yNDRDMTM5LjU3LDI2Mi42MDUsMTM5LjU0MywyNjIuNDIxLDEzOS41NDMsMjYyLjQyMSAgIHMwLjE2NiwwLjM0MSwxMTUuODA5LTEwMy4zMzlDMjg4LjA5OCwxMjYuNzA0LDI4Ny45MzIsNzQuMzkyLDI1NS4zNjEsNDEuODM5eiIvPgoJPHBhdGggc3R5bGU9ImZpbGw6I0NCNEU0NDsiIGQ9Ik0xMzkuOTIsNDguMDZsLTAuMDc5LTAuMDYxdjIxNC4xNjhjMS44NDYtMS41NTgsMTUuNDE5LTEzLjM0NSwxMTUuNTExLTEwMy4wOTQgICBjMzIuNzM3LTMyLjM2OSwzMi41NzktODQuNjgyLDAtMTE3LjIzNUMyMTMuOTA4LDAuMzg2LDE3Mi44MjMsMTguNSwxMzkuOTIsNDguMDZ6Ii8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==) no-repeat left center; background-repeat: no-repeat; background-size: contain; }
 .badge-1 { position:relative; background-color:#fc0; color:#000; padding:4px;font-size:12px; font-weight: 600; }
 .badge-2 { position:relative; background-color:#16c9c5; color:#fff; padding:4px; font-size:12px; font-weight: 600; }
+.code { background:#444; color:#fc0; }
+input.code { padding:8px; border:0; }
 @media only screen and (min-width: 33.75em) {
   .c { width: 80%; }
 }

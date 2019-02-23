@@ -10,20 +10,30 @@
   <link rel="stylesheet" href="advanced.css">
 </head>
 <body>
-	<div class="c">
+	<div class="c pt1">
 		<div class="r">
 			<div class="c12">
-				<h1 class="fh">Hello world!</h1>
+				<h1 class="fh">Advanced</h1>
+				<h5>CSS Framework</h5>
 			</div>
 			<div class="c1">
 				<hr>
 			</div>
 		</div>
 		<div class="r pt1">
-			<div class="c12">
-				<a href="advanced.css" class="b1">Grab your copy now!</a>
+			<div class="c5">
+				<input type="text" id="cssUrl"
+					value="https://advanceddev.github.io/advanced.github.io/advanced.css"
+					placeholder="https://advanceddev.github.io/advanced.github.io/advanced.css"
+					class="code"
+					style="margin-left:0; width: 100%"
+				/>
+				<small id="result" class="hide">Done!</small>
 			</div>
-			<div class="c12 pt1">
+			<div class="c12">
+				<button onclick="handleAction()" class="b1">Copy direct URL to clipboard!</button>
+			</div>
+			<div class="c12">
 				<button id="action_btn" class="b2 b-github">Our GitHub</button>
 			</div>
 		</div>
@@ -32,6 +42,13 @@
 		document.getElementById("action_btn").onclick = function () {
 			location.href = "https://github.com/advanceddev";
 		};
+		function handleAction() {
+		  var copyText = document.getElementById("cssUrl");
+		  var element = document.getElementById("result");
+		  copyText.select();
+		  document.execCommand("copy");
+		  element.classList.remove("hide");
+		}
 	</script>
 </body>
 </html>
