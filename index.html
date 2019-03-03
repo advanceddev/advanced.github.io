@@ -2,39 +2,41 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Hello World | Advanced</title>
-  <meta name="description" content="Example page">
-  <meta name="author" content="Advanced">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="advanced.css">
+	<meta charset="utf-8">
+	<title>Advanced Framework</title>
+	<meta name="description" content="Simple CSS UI framework" />
+	<meta name="author" content="Advanced">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="advanced.css">
 </head>
 <body>
-	<div class="c pt1">
-		<div class="r">
-			<div class="c12">
-				<h1 class="fh">Advanced</h1>
-				<h5>CSS Framework</h5>
+	<div id="app">
+		<div class="c pt1">
+			<div class="r">
+				<div class="c12">
+					<h1 class="fh">{{ title }}</h1>
+					<h5>{{ subtitle }}</h5>
+				</div>
+				<div class="c1">
+					<hr>
+				</div>
 			</div>
-			<div class="c1">
-				<hr>
-			</div>
-		</div>
-		<div class="r pt1">
-			<div class="c5">
-				<p class="code" id="cssUrl" style="margin-left:0;">
-					https://advanceddev.github.io/advanced.github.io/advanced.css
-				</p>
-				<small id="result" class="hide">Done!</small>
-			</div>
-			<div class="c12">
-				<button onclick="handleAction()" class="b1">Copy direct URL to clipboard!</button>
-			</div>
-			<div class="c12">
-				<button id="action_btn" class="b2 b-github">Our GitHub</button>
+			<div class="r pt1">
+				<div class="c5">
+					<p class="code" style="margin-left:0;">
+						{{ link }}
+					</p>
+				</div>
+				<div class="c12">
+					<action-button/>
+				</div>
+				<div class="c12">
+					<github-button/>
+				</div>
 			</div>
 		</div>
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 	<script src="app.js"></script>
 </body>
 </html>
